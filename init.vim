@@ -42,7 +42,8 @@ let g:neomake_python_enabled_makers = ['flake8']
 let g:highlightedyank_highlight_duration = 1000
 
 "setting bash as default shell"
-let g:split_term_default_shell = "bash"
+let g:split_term_default_shell = "zsh"
+"let g:split_term_default_shell = "bash"
 
 "Mapping the leader key
 let mapleader="\<SPACE>"
